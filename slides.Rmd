@@ -1,0 +1,42 @@
+---
+title: "Assignment-slides"
+author: "Jenny"
+date: "5/29/2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Application Function
+This shiny application provides the user with plots of MPG(Miles/(US) gallon) against different variables. 
+
+The Application contains :
+
+**Left Pane** : 
+
+- Select Variable from Dataset
+
+**Main Panel** : 
+
+- Summary : This displays summary for the data as per user selection
+- Structure : This displays Strucutre for the data as per user selection
+- Data : This displays data frame for the user selected options
+- Plot : This displays plot for corresponding dataframe
+
+## First Objective:
+Shiny Application: [Link](https://jennyxu93.shinyapps.io/dataProductsAssignment/)
+
+Github Repository: [Link](https://github.com/XiaoJenJen/data-products)
+
+## Second Objective:
+The Presentation is available at Rpubs:
+[Link](http://rpubs.com/JenJen/392923)
+
+## Dataset
+The data used in the app comes from the Motor Trend Car Road Tests (mtcars) dataset. 
+```{r,echo=TRUE}
+summary(mtcars)
+```
+
